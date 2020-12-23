@@ -1,4 +1,4 @@
-[submodule "map"]
-	path = map
-	url = git@github.com:triplea-maps/over-the-top.git
+[submodule "src"]
+	path = src
+	url = git@github.com:triplea-maps/over_the_top.git
 	branch = develop

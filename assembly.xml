@@ -10,7 +10,7 @@
     </formats>
     <fileSets>
         <fileSet>
-            <directory>${project.basedir}/map</directory>
+            <directory>${project.basedir}/src/map</directory>
             <outputDirectory>/</outputDirectory>
         </fileSet>
     </fileSets>

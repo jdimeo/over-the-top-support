@@ -104,6 +104,7 @@ along Imperial Russia's eastern most territories thus opening another front.</p>
 <li>Two-hit units repair at the start of the next turn and only if certain "repairing" units are present</li>
 <li>Producing fighters on carriers and producing new fighters on old carriers are both allowed</li>
 <li>Partial amphibious retreat, air retreat, and submerging subs are all allowed</li>
+<li>Projection of power or economic victory. Only main powers' capitals are considered victory cities (not African colonial powers or Bolsheviks).</li> 
 </ul>
 
 <h1>Factions</h1>
@@ -633,17 +634,10 @@ the beginning of the turn.</p>
 		<td>
 			Trains provide an efficient means of transporting ground forces, however their
 			routes of approach may be cut off or blocked if the railway territory is in
-			enemy hands (each railway is a "canal" in TripleA rules). They are vulnerable to air attacks and munitions and have no
-			defensive capabilities. However, they may "eliminate" enemy trains that have
-			been left isolated in a friendly territory (they cannot be captured). Because
-			of their +6 attack capability they will automatically destroy the enemy
-			train/trains (unless enemy armored trains are present) when moved into that
-			railway system, but cannot continue to pass through in the same turn. They must
-			move during the combat phase in order to transfer ownership of the railway.
-			This simulates the need to repair and "assimilate" enemy controlled railways in
-			order to gain access. If an enemy armored train is present, then there will be
-			combat and the attacking train runs the risk of being destroyed. This "battle"
-			represents sabotage and construction of new infrastructure when subduing newly captured territories, not actual combat.
+			enemy hands (each railway is a "canal" in TripleA rules). They are vulnerable to air attacks and munitions
+			and have no defensive capabilities. If protected by an armored train, they function like transports and
+			destroyers in normal sea-based battles (unescorted enemy trains can co-exist, but an armored escort will
+			cause a battle).  
 		</td>
 	</tr>
 	<tr>
@@ -653,7 +647,8 @@ the beginning of the turn.</p>
 		</td>
 		<td>
 			Armored trains provide defensive support for vulnerable trains and
-			railguns from air assaults. They also have a carrying capacity of 1.
+			railguns from air assaults, as well as the ability to destroy opponents' trains in their path (unlike normal
+			trains). They also have a carrying capacity of 1.
 		</td>
 	</tr>
 	<tr>
@@ -767,4 +762,5 @@ Please report any bugs or suggestions to <code>https://github.com/triplea-maps/o
 <b>0.1.0</b> - First public release under triple-maps
 <b>0.1.1</b> - Remove deprecated <code>isTwoHit</code>
 <b>0.1.2</b> - Changed repository layout to follow conventions and move supporting files to separate repository
+<b>1.0.0</b> - Add victory conditions (#5), tweak train logic and prices (#6), fix sub vs. air (#1), fix emplaced artillery repair (#3) 
 </body>

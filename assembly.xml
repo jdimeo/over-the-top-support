@@ -11,7 +11,7 @@
     <fileSets>
         <fileSet>
             <directory>${project.basedir}/src/map</directory>
-            <outputDirectory>/</outputDirectory>
+            <outputDirectory>/over_the_top-master/map/</outputDirectory>
         </fileSet>
     </fileSets>
 </assembly>

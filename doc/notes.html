@@ -371,8 +371,8 @@ the beginning of the turn.</p>
 		<td>
 			Zeppelins are expensive and weak on attack but have the ability to move vast distances
 			and conduct raids as well as provide support to various ground and naval
-			forces. They may provide 1 Spotter Power to 3 allied cavalry, destroyer,
-			elite-offensive-infantry, infantry, mech-infantry and submarines.
+			forces. They provide 1 spotter support to 2 allied artillery (field and heavy) and capital ships
+			(cruisers and battleships).
 		</td>
 	</tr>
 	<tr>
@@ -536,7 +536,7 @@ the beginning of the turn.</p>
 			They are the modern equivalent to the cavalry and predecessors to the APC (Armored Troop Carriers).
 			They also have land transport capabilities and may
 			load 1 of any infantry type and carry them to their destination. This can be very advantageous towards
-			a blitzkrieg type offensive approach. They also provide +1 support to bombers.
+			a blitzkrieg type offensive approach.
 		</td>
 	</tr>
 	<tr>
@@ -547,7 +547,7 @@ the beginning of the turn.</p>
 		<td>
 			Cavalry are swift moving and have the same defense/attack capabilities of the infantry.
 			They are numerous at the start of the game but more expensive to replace
-			losses. They also provide +1 support to bombers.
+			losses.
 		</td>
 	</tr>
 	<tr>
@@ -570,12 +570,18 @@ the beginning of the turn.</p>
 		</td>
 		<td>
 			<i>Requires research to unlock production</i><br/><br/>
-			The "King of Battle", heavy artillery have the unique capability of shooting gas munitions
-			against adjacent land territories. They are expensive to both research and
-			produce but are highly effective. They are also very heavy to transport
-			provided their enormous size; they cannot be loaded onto freighters. Like the
-			field artillery, they can be brought directly into battle and may support
-			various infantry/cavalry units with a +1 attack bonus.
+			The "King of Battle", heavy artillery are expensive to both research and
+			produce but are highly effective and have several unique capabilities:
+			<ul>
+				<li>They are strong on offense and defense with a base power of 4 for both</li>
+				<li>They provide infantry +1 support like field artillery</li>
+				<li>When advanced into battle, they also shoot gas (ensure you move them during the first combat move),
+				which bypass trenches, targeting infantry and other soft targets at the start of the battle</li>
+				<li>They can be "emplaced", which means they cannot be moved but now have 2 hits and shoot 2 ranged
+				munitions per turn (see Heavy-Artillery-Emplacement)</li>
+			</ul>
+			They are also very heavy to transport provided their enormous size; they cannot be loaded
+			onto freighters.
 		</td>
 	</tr>
 	<tr>
@@ -710,16 +716,16 @@ the beginning of the turn.</p>
 			<img src="images/mun.png" />
 		</td>
 		<td>
-			Munitions are shells that can be shot from heavy artillery, battleships,
+			Munitions are shells that can be shot from emplaced heavy artillery, battleships,
 			battlecruisers, and railguns. They are a 1-use attack element that engages in
 			the beginning of a combat phase and can be used to strike at any land forces, ships,
-			or production facilities in range. They are "loaded" during the first combat phase and can be
-			"fired" during the second combat phase (and moved independently from the unit that fired them).
+			or strategic bomb production facilities in range. They are "loaded" during the first combat phase
+			and can be "fired" during the second combat phase (and moved independently from the unit that fired them).
 		</td>
 	</tr>
 	<tr>
 		<td>
-			<b>Munitions</b><br/>
+			<b>Gas</b><br/>
 			<img src="images/gas.png" />
 		</td>
 		<td>
@@ -736,7 +742,7 @@ the beginning of the turn.</p>
 		</td>
 		<td>
 			As the leader of the Bolshevik revolution, Lenin spreads his communist philosophies wherever he goes. 
-			Each turn, he recruits a new infantry to the cause and, while lacking any attack or defense himself, he 
+			Each turn, he recruits two new infantry to the cause and, while lacking any attack or defense himself, he 
 			inspires up to 10 infantry with +1 support.
 		</td>
 	</tr>
@@ -763,4 +769,5 @@ Please report any bugs or suggestions to <code>https://github.com/triplea-maps/o
 <b>0.1.1</b> - Remove deprecated <code>isTwoHit</code><br/>
 <b>0.1.2</b> - Changed repository layout to follow conventions and move supporting files to separate repository<br/>
 <b>1.0.0</b> - Add victory conditions (#5), tweak train logic and prices (#6), fix sub vs. air (#1), fix emplaced artillery repair (#3)<br/> 
+<b>1.1.0</b> - Improve balance by removing 400 TUV of allied starting units, reducing Bolshevik placements, and reducing Zeppelin abilities<br/>
 </body>
